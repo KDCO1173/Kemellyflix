@@ -1,0 +1,64 @@
+body {
+    color: rgb(230, 171, 212);
+    background: rgb(248, 245, 245);
+    margin: 0px; 
+    font-family: "Open Sans", sans-serif
+    margin-bottom, 100px
+}
+
+header{
+    border-bottom: solid 1px rgb(229, 146, 189, 1);
+    padding: 20px;
+    font-size: 22px;
+    color: rgb(207, 140, 201)
+}
+
+.chamada {
+    background: rgb(248, 248, 248);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 32px;
+
+}
+
+p{
+    font-size: 20px;
+}
+
+img {
+    height: 150px;
+}
+
+.categoria-vídeos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-vídeos img {
+    opacity: 0.7;
+}
+
+.categoria-vídeos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(207, 140, 201)
+}
